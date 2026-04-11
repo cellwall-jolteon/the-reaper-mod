@@ -16,6 +16,27 @@
   "${modID}:Defend": {
     "NAME": "Defend",
     "DESCRIPTION": "Gain !B! block."
+  },
+  "${modID}:RogueDaggerStrike": {
+    "NAME": "Rogue Dagger Strike",
+    "DESCRIPTION": "Deal !D!x3 damage."
+  },
+  "${modID}:UmbrellaStrike": {
+    "NAME": "Umbrella Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Exhaust !M! NL Exhaust"
+  },
+  "${modID}:TheForetoldCrow": {
+    "NAME": "The Foretold Crow",
+    "DESCRIPTION": "Scry 2. NL Draw 1 NL Exhaust",
+    "UPGRADE_DESCRIPTION": "Scry 2. NL Draw 1"
+  },
+  "${modID}:BowShot": {
+    "NAME": "Bow Shot",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${modID}:MagicBomb": {
+    "NAME": "Magic Bomb",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Deal an additional !M! damage for each card currently in your draw pile. NL Exhaust"
   }
 }
 

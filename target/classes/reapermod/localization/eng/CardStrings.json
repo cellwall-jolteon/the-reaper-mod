@@ -16,6 +16,27 @@
   "deathsdoor:Defend": {
     "NAME": "Defend",
     "DESCRIPTION": "Gain !B! block."
+  },
+  "deathsdoor:RogueDaggerStrike": {
+    "NAME": "Rogue Dagger Strike",
+    "DESCRIPTION": "Deal !D!x3 damage."
+  },
+  "deathsdoor:UmbrellaStrike": {
+    "NAME": "Umbrella Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Exhaust !M! NL Exhaust"
+  },
+  "deathsdoor:TheForetoldCrow": {
+    "NAME": "The Foretold Crow",
+    "DESCRIPTION": "Scry 2. NL Draw 1 NL Exhaust",
+    "UPGRADE_DESCRIPTION": "Scry 2. NL Draw 1"
+  },
+  "deathsdoor:BowShot": {
+    "NAME": "Bow Shot",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "deathsdoor:MagicBomb": {
+    "NAME": "Magic Bomb",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Deal an additional !M! damage for each card currently in your draw pile. NL Exhaust"
   }
 }
 

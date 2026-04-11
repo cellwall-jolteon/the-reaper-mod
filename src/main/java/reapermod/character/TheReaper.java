@@ -22,9 +22,13 @@ import com.megacrit.cardcrawl.helpers.CardLibrary;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.helpers.ScreenShake;
 import com.megacrit.cardcrawl.relics.BurningBlood;
+import com.megacrit.cardcrawl.relics.PrismaticShard;
 import com.megacrit.cardcrawl.screens.CharSelectInfo;
 import reapermod.cards.basic.Defend;
 import reapermod.cards.basic.Strike;
+import reapermod.cards.common.RogueDaggerStrike;
+import reapermod.cards.common.UmbrellaStrike;
+import reapermod.util.Sounds;
 
 import java.util.ArrayList;
 
@@ -156,6 +160,8 @@ public class TheReaper extends CustomPlayer {
         retVal.add(Defend.ID);
         retVal.add(Defend.ID);
         retVal.add(Defend.ID);
+        retVal.add(UmbrellaStrike.ID);
+        retVal.add(RogueDaggerStrike.ID);
 
 //        retVal.add(Strike_Red.ID);
 //        retVal.add(Defend_Blue.ID);
@@ -168,7 +174,7 @@ public class TheReaper extends CustomPlayer {
     public ArrayList<String> getStartingRelics() {
         ArrayList<String> retVal = new ArrayList<>();
         //IDs of starting relics. You can have multiple, but one is recommended.
-        retVal.add(BurningBlood.ID);
+        retVal.add(PrismaticShard.ID); //TODO Make a custom relic
 
         return retVal;
     }
@@ -227,7 +233,8 @@ public class TheReaper extends CustomPlayer {
     public void doCharSelectScreenSelectEffect() {
         //This occurs when you click the character's button in the character select screen.
         //See SoundMaster for a full list of existing sound effects, or look at BaseMod's wiki for adding custom audio.
-        CardCrawlGame.sound.playA("ATTACK_DAGGER_2", MathUtils.random(-0.2F, 0.2F));
+        CardCrawlGame.sound.play(Sounds.button);
+//        CardCrawlGame.sound.playA("button", MathUtils.random(-0.2F, 0.2F));
         CardCrawlGame.screenShake.shake(ScreenShake.ShakeIntensity.MED, ScreenShake.ShakeDur.SHORT, false);
     }
     @Override

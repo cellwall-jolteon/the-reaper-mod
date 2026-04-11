@@ -1,11 +1,15 @@
 reapermod\util\KeywordInfo.class
 reapermod\cards\BaseCard.class
 reapermod\cards\basic\Strike.class
+reapermod\cards\common\RogueDaggerStrike.class
 reapermod\util\TextureLoader.class
 reapermod\relics\BaseRelic.class
 reapermod\util\GeneralUtils.class
+reapermod\cards\uncommon\TheForetoldCrow.class
 reapermod\powers\BasePower.class
 reapermod\potions\BasePotion.class
+reapermod\cards\common\BowShot.class
+reapermod\cards\uncommon\MagicBomb.class
 reapermod\cards\BaseCard$LocalVarInfo.class
 reapermod\character\TheReaper$Meta.class
 reapermod\character\TheReaper.class
@@ -18,5 +22,5 @@ reapermod\util\CardStats.class
 reapermod\cards\BaseCard$QuickDynamicVariable.class
 reapermod\util\Sounds.class
 reapermod\cards\basic\Defend.class
-reapermod\cards\BaseCard$1.class
 reapermod\character\TheReaper$1.class
+reapermod\cards\common\UmbrellaStrike.class
