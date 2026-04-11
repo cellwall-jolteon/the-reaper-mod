@@ -233,8 +233,8 @@ public class TheReaper extends CustomPlayer {
     public void doCharSelectScreenSelectEffect() {
         //This occurs when you click the character's button in the character select screen.
         //See SoundMaster for a full list of existing sound effects, or look at BaseMod's wiki for adding custom audio.
-        CardCrawlGame.sound.play(Sounds.button);
-//        CardCrawlGame.sound.playA("button", MathUtils.random(-0.2F, 0.2F));
+        CardCrawlGame.sound.play(Sounds.swoosh);
+//        CardCrawlGame.sound.playA("ATTACK_DAGGER_1", MathUtils.random(-0.2F, 0.2F));
         CardCrawlGame.screenShake.shake(ScreenShake.ShakeIntensity.MED, ScreenShake.ShakeDur.SHORT, false);
     }
     @Override

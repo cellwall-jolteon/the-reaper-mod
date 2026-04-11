@@ -1,8 +1,9 @@
 {
-  "${modID}:PowerID": {
-    "NAME": "Ultimate Power",
+  "${modID}:LoseGold": {
+    "NAME": "Soul Conversion",
     "DESCRIPTIONS": [
-      "You are Very Cool and Strong."
+      "A #b",
+      " additional damage."
     ]
   }
 }

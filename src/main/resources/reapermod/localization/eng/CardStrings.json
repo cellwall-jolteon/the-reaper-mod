@@ -23,12 +23,12 @@
   },
   "${modID}:UmbrellaStrike": {
     "NAME": "Umbrella Strike",
-    "DESCRIPTION": "Deal !D! damage. NL Exhaust !M! NL Exhaust"
+    "DESCRIPTION": "Deal !D! damage. NL Exhaust !M!. NL Exhaust."
   },
   "${modID}:TheForetoldCrow": {
     "NAME": "The Foretold Crow",
-    "DESCRIPTION": "Scry 2. NL Draw 1 NL Exhaust",
-    "UPGRADE_DESCRIPTION": "Scry 2. NL Draw 1"
+    "DESCRIPTION": "Scry 2. NL Draw 1. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Scry 2. NL Draw 1."
   },
   "${modID}:BowShot": {
     "NAME": "Bow Shot",
@@ -36,8 +36,27 @@
   },
   "${modID}:MagicBomb": {
     "NAME": "Magic Bomb",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Deal an additional !M! damage for each card currently in your draw pile. NL Exhaust"
-  }
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Deal an additional !M! damage for each card currently in your draw pile. NL Exhaust."
+  },
+  "${modID}:GrapplingHook": {
+    "NAME": "Grappling Hook",
+    "DESCRIPTION": "Deal !D! damage. NL Gain [E]."
+  },
+  "${modID}:MagicalCrow": {
+    "NAME": "Magical Crow",
+    "DESCRIPTION": "Gain !M! Strength and Dexterity.",
+    "UPGRADE_DESCRIPTION":  "Innate. NL Gain !M! Strength and Dexterity."
+  }, "${modID}:MinorSoul": {
+    "NAME": "Minor Soul",
+    "DESCRIPTION": "Gain !M! Gold. NL Exhaust."
+  }, "${modID}:GrandSoul": {
+  "NAME": "Grand Soul",
+  "DESCRIPTION": "Gain !M! Gold. NL Lose 10 HP. NL Exhaust."
+}, "${modID}:SoulVault": {
+  "NAME": "Soul Vault",
+  "DESCRIPTION": "Lose 15 Gold. NL Gain [E].",
+  "UPGRADE_DESCRIPTION":  "Lose 15 Gold. NL Gain [E] [E]."
+}
 }
 
 

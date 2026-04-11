@@ -23,7 +23,7 @@ public class MagicBomb extends BaseCard {
     //but constants at the top of the file are easy to adjust.
     private static final int DAMAGE = 8;
     private static final int MAGIC = 1;
-    private static final int UPG_MAGIC = 2;
+    private static final int UPG_MAGIC = 1;
 
     public MagicBomb() {
         super(ID, info); //Pass the required information to the BaseCard constructor.

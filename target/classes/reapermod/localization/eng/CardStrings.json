@@ -23,12 +23,12 @@
   },
   "deathsdoor:UmbrellaStrike": {
     "NAME": "Umbrella Strike",
-    "DESCRIPTION": "Deal !D! damage. NL Exhaust !M! NL Exhaust"
+    "DESCRIPTION": "Deal !D! damage. NL Exhaust !M!. NL Exhaust."
   },
   "deathsdoor:TheForetoldCrow": {
     "NAME": "The Foretold Crow",
-    "DESCRIPTION": "Scry 2. NL Draw 1 NL Exhaust",
-    "UPGRADE_DESCRIPTION": "Scry 2. NL Draw 1"
+    "DESCRIPTION": "Scry 2. NL Draw 1. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Scry 2. NL Draw 1."
   },
   "deathsdoor:BowShot": {
     "NAME": "Bow Shot",
@@ -36,8 +36,27 @@
   },
   "deathsdoor:MagicBomb": {
     "NAME": "Magic Bomb",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Deal an additional !M! damage for each card currently in your draw pile. NL Exhaust"
-  }
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Deal an additional !M! damage for each card currently in your draw pile. NL Exhaust."
+  },
+  "deathsdoor:GrapplingHook": {
+    "NAME": "Grappling Hook",
+    "DESCRIPTION": "Deal !D! damage. NL Gain [E]."
+  },
+  "deathsdoor:MagicalCrow": {
+    "NAME": "Magical Crow",
+    "DESCRIPTION": "Gain !M! Strength and Dexterity.",
+    "UPGRADE_DESCRIPTION":  "Innate. NL Gain !M! Strength and Dexterity."
+  }, "deathsdoor:MinorSoul": {
+    "NAME": "Minor Soul",
+    "DESCRIPTION": "Gain !M! Gold. NL Exhaust."
+  }, "deathsdoor:GrandSoul": {
+  "NAME": "Grand Soul",
+  "DESCRIPTION": "Gain !M! Gold. NL Lose 10 HP. NL Exhaust."
+}, "deathsdoor:SoulVault": {
+  "NAME": "Soul Vault",
+  "DESCRIPTION": "Lose 15 Gold. NL Gain [E].",
+  "UPGRADE_DESCRIPTION":  "Lose 15 Gold. NL Gain [E] [E]."
+}
 }
 
 

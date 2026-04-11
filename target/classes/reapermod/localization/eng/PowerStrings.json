@@ -1,8 +1,9 @@
 {
-  "deathsdoor:PowerID": {
-    "NAME": "Ultimate Power",
+  "deathsdoor:LoseGold": {
+    "NAME": "Soul Conversion",
     "DESCRIPTIONS": [
-      "You are Very Cool and Strong."
+      "A #b",
+      " additional damage."
     ]
   }
 }
